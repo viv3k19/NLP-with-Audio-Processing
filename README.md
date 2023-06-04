@@ -82,7 +82,7 @@ accuracy and speed. We can trust Whisper Large-V2 to deliver reliable, high-qual
 making
 it the ideal model for this challenge**
 
-# Core Features:
+## Core Features:
 * Importing File Type (Supports Mainly .Wav, .mp3 Files)
 * Number Of Channels.
 * Audio Frame Rate.
@@ -101,6 +101,35 @@ it the ideal model for this challenge**
 * Downloadable Text From Same Window Only.
 * Always Access To Previous.
 * .exe With CMD Support To Have look On Console Output.
+
+## Technologies used
+* Python Libraries:
+  * sqlite3
+  * tkinter
+  * wave
+  * librosa
+  * matplotlib
+  * pyttsx3
+  * torch
+  * torchaudio
+  * winsound
+  * soundfile
+  * numpy
+  * whisper[openAI]
+  * ttkbootstrap
+* NLP Filtering Techniques with Python
+  * lowercase
+  * remove punctuation
+  * remove stopwords
+  * remove html tags
+  * chat word treatment
+  * stemming
+  * remove url
+  * spelling correction lemmatization
+* Convolution [for Analytics]
+  * Waves - sine & rec waves
+  * Activation Function used - softmax
+  * WER - word error rate
 
 # Project Creators
 * Vivek Malam [Designer & Analyst]
